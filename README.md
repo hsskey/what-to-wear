@@ -30,7 +30,7 @@ open http://localhost:3000
 아래 참고:
 
 ```sh
-boilerplat-admin/src
+what-to-wear/src
 ├── component/        # 프로젝트 전체에서 공유되는 Component.
 ├── resource/         # 프로젝트 전체에서 공유되는 resource.
 ├── state/            # 비동기 처리 통신을 통해 가져온 데이터를 recoil selector로 가져옴.
