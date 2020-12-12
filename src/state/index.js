@@ -5,7 +5,7 @@ export const weatherData = selector({
     get: async () => {
         const cityName = 'Seoul';
         const response = await fetch(
-            `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${process.env.REACT_APP_OPEN_WEATHER_API_KEY}&units=metric`
+            `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${process?.env?.REACT_APP_OPEN_WEATHER_API_KEY}&units=metric`
         );
         const data = await response.json();
 
